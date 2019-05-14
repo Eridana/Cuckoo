@@ -8,7 +8,7 @@
 
 public protocol Method: Token, HasAccessibility {
     var name: String { get }
-    var accessibility: Accessibility { get }
+    var accessibility: Accessibility { get set }
     var returnSignature: String { get }
     var range: CountableRange<Int> { get }
     var nameRange: CountableRange<Int> { get }
