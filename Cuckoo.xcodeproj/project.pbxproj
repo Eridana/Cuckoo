@@ -1136,6 +1136,7 @@
 		181504411FBB1B3E00345EDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -1143,6 +1144,7 @@
 		181504421FBB1B3E00345EDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
